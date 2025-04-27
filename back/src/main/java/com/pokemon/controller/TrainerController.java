@@ -26,6 +26,12 @@ public class TrainerController {
         return ResponseEntity.status(HttpStatus.CREATED).body(trainerService.createTrainer(trainer));
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity<Trainer> updateTrainer(@PathVariable Long id, @RequestBody Trainer trainer) {
+        Trainer updatedTrainer = trainerService.updateTrainer(id, trainer);
+        return ResponseEntity.ok(updatedTrainer);
+    }
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteTrainer(@PathVariable Long id) {
         trainerService.deleteTrainer(id);

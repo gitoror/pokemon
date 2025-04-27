@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface PokemonRepository extends JpaRepository<Pokemon, Long> {
-    List<Pokemon> findByNameContaining(String name);
+    List<Pokemon> findByName(String name);
 }

@@ -1,0 +1,4 @@
+ (liquibase update `
+    --changelog-file=changelog-master.yml `
+    --defaults-file=liquibase.properties `
+    --log-level=INFO)

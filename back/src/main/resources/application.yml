@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/poke_db?currentSchema=poke_schema
+    username: app_user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#      show-sql: true

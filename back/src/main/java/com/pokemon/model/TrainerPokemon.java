@@ -1,15 +1,17 @@
 package com.pokemon.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "trainer_pokemon")
 public class TrainerPokemon {
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
     @ManyToOne
     @JoinColumn(name = "trainer_id")
     private Trainer trainer;

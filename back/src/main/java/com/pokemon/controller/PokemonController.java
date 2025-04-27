@@ -26,6 +26,13 @@ public class PokemonController {
         return ResponseEntity.status(HttpStatus.CREATED).body(pokemonService.createPokemon(pokemon));
     }
 
+    @PutMapping
+    public ResponseEntity<Pokemon> updatePokemon(@PathVariable Long id, @RequestBody Pokemon pokemon) {
+        Pokemon updatedPokemon = pokemonService.updatePokemon(id, pokemon);
+        return ResponseEntity.ok(updatedPokemon);
+    }
+
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletePokemon(@PathVariable Long id) {
         pokemonService.deletePokemon(id);

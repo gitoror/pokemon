@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: '1.0.0'
+      author: pokemaster
+      changes:
+        - sqlFile:
+            path: sql/ddl.sql
+            relativeToChangelogFile: true
