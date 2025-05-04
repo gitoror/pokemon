@@ -1,12 +1,12 @@
 package com.pokemon.controller;
 
-import com.pokemon.exception.PokemonNotFoundException;
 import com.pokemon.model.Pokemon;
-import com.pokemon.service.PokemonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import com.pokemon.exception.PokemonNotFoundException;
+import com.pokemon.service.PokemonService;
 
 import java.util.List;
 

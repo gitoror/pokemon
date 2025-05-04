@@ -23,5 +23,10 @@ create table trainers_pokemon (
     constraint fk_trainer_pokemon_trainer foreign key (trainer_id) references trainers(id) on delete cascade
 );
 
+create table city (
+    id bigserial,
+    name varchar(255),
+    constraint pk_city primary key (id)
+);
 
 

@@ -1,7 +1,7 @@
 package com.pokemon.service;
 
+import com.pokemon.TestConfig;
 import com.pokemon.model.City;
-import com.pokemon.service.CityService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
 @Testcontainers
-@SpringBootTest
+@SpringBootTest(classes = {TestConfig.class})
 public class PokemonServiceTest {
     @Container
     @ServiceConnection

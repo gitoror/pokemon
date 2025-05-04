@@ -24,5 +24,7 @@
     <modules>
         <module>pokemon-model</module>
         <module>pokemon-application</module>
+        <module>pokemon-process</module>
+        <module>pokemon-api</module>
     </modules>
 </project>
