@@ -4,42 +4,82 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e587a831-6609-4d6f-bb86-4ce2f04f5282" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/database/1.0.0/changelog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/database/1.0.1/changelog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/database/changelog-master.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/dto/PokemonDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/exception/PokemonNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.0/sql/ddl.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.1/sql/pokeball_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/test/java/com/pokemon/service/PokemonServiceTest.java" afterDir="false" />
+    <list default="true" id="e587a831-6609-4d6f-bb86-4ce2f04f5282" name="Changes" comment="Version qui marche">
+      <change afterPath="$PROJECT_DIR$/back/pokemon-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/pokemon-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/repository/CityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/service/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/pokemon-model/src/test/java/com/pokemon/service/CityServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/pokemon-model/src/test/java/com/pokemon/service/PokemonServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/pokemon-model/src/test/java/com/pokemon/service/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/pokemon-model/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pokemon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pokemon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/database/1.0.0/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.0/changelog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/database/1.0.1/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.1/changelog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/database/changelog-master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/db.changelog-master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/database/command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/back/database/command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/database/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/database/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/1.0.0/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-application/src/main/resources/db/changelog/1.0.0/changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/1.0.0/sql/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-application/src/main/resources/db/changelog/1.0.0/sql/ddl.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/1.0.1/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-application/src/main/resources/db/changelog/1.0.1/changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/1.0.1/sql/pokeball_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-application/src/main/resources/db/changelog/1.0.1/sql/pokeball_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/devlocal/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/devlocal/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/devlocal/docker/init-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/devlocal/docker/init-schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/PokemonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/PokemonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/TrainerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/service/PokemonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/service/PokemonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-application/src/main/java/com/pokemon/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/PokemonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/controller/PokemonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/controller/TrainerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/dto/PokemonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/dto/PokemonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/exception/PokemonNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/exception/PokemonNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/model/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/model/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/model/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/model/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/model/TrainerPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/model/TrainerPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/repository/PokemonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/repository/PokemonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/repository/TrainerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/repository/TrainerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/service/PokemonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/service/PokemonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/service/TrainerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/service/TrainerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-application/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.0/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/1.0.0/changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.0/sql/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/1.0.0/sql/ddl.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.1/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/1.0.1/changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.1/sql/pokeball_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/1.0.1/sql/pokeball_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/db/changelog/db.changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-application/src/main/resources/db/changelog/db.changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/test/java/com/pokemon/service/PokemonServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gitoror"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/gitoror/pokemon.git",
+    "accountId": "47d09906-20f4-4a69-ae0a-5fbae57e8d3f"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -53,26 +93,117 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Docker.docker.db: Compose Deployment.executor": "Run",
+    "Docker.docker: Compose Deployment.executor": "Run",
+    "JUnit.CityServiceTest (1).executor": "Debug",
+    "JUnit.CityServiceTest.executor": "Run",
+    "JUnit.PokemonServiceTest (1).executor": "Run",
+    "JUnit.PokemonServiceTest.ctxLoads.executor": "Run",
+    "JUnit.PokemonServiceTest.executor": "Run",
+    "JUnit.PokemonServiceTest.testCreateCityFromHere.executor": "Run",
+    "Maven.pokemon [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/tomma/space/pokemon/back/database",
+    "last_directory_selection": "C:/Users/tomma/space/pokemon/back/pokemon-model/src/test/java/com/pokemon",
+    "last_opened_file_path": "C:/Users/tomma/space/pokemon/back/pokemon-model/src/main/java/com/pokemon",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pokemon.App" />
-      <module name="pokemon" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tomma\space\pokemon\back\pokemon-model\src\main\java\com\pokemon\" />
+      <recent name="C:\Users\tomma\space\pokemon\back\database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomma\space\pokemon" />
+      <recent name="C:\Users\tomma\space\pokemon\back\pokemon" />
+      <recent name="C:\Users\tomma\space\pokemon\back\database" />
+      <recent name="C:\Users\tomma\space\pokemon\back\database\db" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pokemon.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CityServiceTest (1)">
+    <configuration name="CityServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokemon-model" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pokemon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.pokemon.service" />
+      <option name="MAIN_CLASS_NAME" value="com.pokemon.service.CityServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokemonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokemon-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pokemon.city.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pokemon.city" />
+      <option name="MAIN_CLASS_NAME" value="com.pokemon.city.PokemonServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokemonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokemon-model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pokemon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pokemon.service" />
+      <option name="MAIN_CLASS_NAME" value="com.pokemon.service.PokemonServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokemonServiceTest.ctxLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokemon-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pokemon.city.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pokemon.city" />
+      <option name="MAIN_CLASS_NAME" value="com.pokemon.city.PokemonServiceTest" />
+      <option name="METHOD_NAME" value="ctxLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokemonServiceTest.testCreateCityFromHere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokemon-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pokemon.city.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pokemon.city" />
+      <option name="MAIN_CLASS_NAME" value="com.pokemon.city.PokemonServiceTest" />
+      <option name="METHOD_NAME" value="testCreateCityFromHere" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,23 +212,13 @@
       <deployment type="docker-compose.yml" />
       <method v="2" />
     </configuration>
-    <configuration name="docker.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="db" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="back/devlocal/docker/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="Docker.docker.db: Compose Deployment" />
+        <item itemvalue="JUnit.CityServiceTest (1)" />
+        <item itemvalue="JUnit.PokemonServiceTest (1)" />
+        <item itemvalue="JUnit.PokemonServiceTest.testCreateCityFromHere" />
+        <item itemvalue="JUnit.PokemonServiceTest" />
+        <item itemvalue="JUnit.PokemonServiceTest.ctxLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +231,19 @@
       <option name="presentableId" value="Default" />
       <updated>1745704750200</updated>
     </task>
+    <task id="LOCAL-00001" summary="Version qui marche">
+      <option name="closed" value="true" />
+      <created>1746360305160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746360305161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version qui marche" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version qui marche" />
   </component>
 </project>
