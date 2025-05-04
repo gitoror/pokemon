@@ -86,7 +86,7 @@
                 <executions>
                     <execution>
                         <id>copy-external-test-resources</id>
-                        <phase>test-compile</phase>
+                        <phase>compile</phase>
                         <goals>
                             <goal>copy-resources</goal>
                         </goals>
