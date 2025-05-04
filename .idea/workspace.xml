@@ -4,38 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e587a831-6609-4d6f-bb86-4ce2f04f5282" name="Changes" comment="Banger de fou multimodule avec test qui marche bien sans annotation en plus (du type EnableJpaRepository ou EntityScan). Les utiliser pourra etre utile si c trop long de tout scanner .. a savoir quand meme.&#10;Reste plus que liqui/flyway ! actuellement bdd tables crées par jpa (à savoir qd même car pratique quand on fait juste des tests !)">
-      <change afterPath="$PROJECT_DIR$/back/pokemon-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/pokemon-api/src/test/java/com/pokemon/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/pokemon-api/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/pokemon-model/src/test/java/com/pokemon/repository/CityRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/pokemon-process/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/pokemon-process/src/main/java/com/pokemon/service/ProcessMoneyTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/pokemon-process/src/test/java/com/pokemon/TestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e587a831-6609-4d6f-bb86-4ce2f04f5282" name="Changes" comment="Enorme banger, cette fois avec liquibase et le changelog externalisé qui se copie tout seul ! faut juste faire un mvn test avant et après on peut cliquer sur les boutons c ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-application/src/main/java/com/pokemon/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-application/src/main/java/com/pokemon/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/controller/PokemonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-api/src/main/java/com/pokemon/controller/PokemonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-api/src/main/java/com/pokemon/controller/TrainerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/dto/PokemonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-api/src/main/java/com/pokemon/dto/PokemonDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/exception/PokemonNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-api/src/main/java/com/pokemon/exception/PokemonNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-api/src/main/java/com/pokemon/service/CityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/service/PokemonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-api/src/main/java/com/pokemon/service/PokemonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/main/java/com/pokemon/service/TrainerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-api/src/main/java/com/pokemon/service/TrainerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/test/java/com/pokemon/service/CityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-api/src/test/java/com/pokemon/service/CityServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/test/java/com/pokemon/service/PokemonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-api/src/test/java/com/pokemon/service/PokemonServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon-model/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pokemon-model/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/1.0.0/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/changelog/1.0.0/changelog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/1.0.0/sql/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/changelog/1.0.0/sql/ddl.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/1.0.1/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/changelog/1.0.1/changelog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/1.0.1/sql/pokeball_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/changelog/1.0.1/sql/pokeball_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/changelog/changelog-master.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devlocal/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/database/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devlocal/docker/init-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/init-schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Docker.database: Compose Deployment.executor": "Run",
     "Docker.docker.db: Compose Deployment.executor": "Run",
     "Docker.docker: Compose Deployment.executor": "Run",
     "JUnit.CityRepositoryTest.executor": "Run",
@@ -99,7 +73,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/tomma/space/pokemon/back/pokemon-api/src/test/java/com/pokemon",
-    "last_opened_file_path": "C:/Users/tomma/space/pokemon/back/pokemon-api/src/test/resources",
+    "last_opened_file_path": "C:/Users/tomma/space/pokemon/database",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -108,11 +82,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tomma\space\pokemon\database" />
+      <recent name="C:\Users\tomma\space\pokemon\back\pokemon-process\src\test\resources" />
       <recent name="C:\Users\tomma\space\pokemon\back\pokemon-api\src\test\resources" />
       <recent name="C:\Users\tomma\space\pokemon\back\pokemon-api\src\main\resources" />
       <recent name="C:\Users\tomma\space\pokemon\back\pokemon-api\src\test\java" />
-      <recent name="C:\Users\tomma\space\pokemon\back\pokemon-api\src\main\java\pokemon\service" />
-      <recent name="C:\Users\tomma\space\pokemon\back\pokemon-model\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tomma\space\pokemon\database\changelog" />
@@ -129,7 +103,7 @@
       <recent name="com.pokemon.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CityRepositoryTest">
+  <component name="RunManager" selected="Docker.database: Compose Deployment">
     <configuration name="CityRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pokemon-model" />
       <extension name="coverage">
@@ -191,22 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CityServiceTest.testCreateCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pokemon-model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pokemon.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pokemon.service" />
-      <option name="MAIN_CLASS_NAME" value="com.pokemon.service.CityServiceTest" />
-      <option name="METHOD_NAME" value="testCreateCity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PokemonServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pokemon-api" />
       <extension name="coverage">
@@ -241,13 +199,21 @@
       <deployment type="docker-compose.yml" />
       <method v="2" />
     </configuration>
+    <configuration name="database: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="database/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.database: Compose Deployment" />
         <item itemvalue="JUnit.CityRepositoryTest" />
         <item itemvalue="JUnit.CityRepositoryTest.testCreateCity" />
         <item itemvalue="JUnit.CityServiceTest (1)" />
         <item itemvalue="JUnit.PokemonServiceTest (1)" />
-        <item itemvalue="JUnit.CityServiceTest.testCreateCity" />
       </list>
     </recent_temporary>
   </component>
@@ -276,12 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1746370046613</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Enorme banger, cette fois avec liquibase et le changelog externalisé qui se copie tout seul ! faut juste faire un mvn test avant et après on peut cliquer sur les boutons c ok">
+      <option name="closed" value="true" />
+      <created>1746381302731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746381302731</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version qui marche" />
     <MESSAGE value="Banger de fou multimodule avec test qui marche bien sans annotation en plus (du type EnableJpaRepository ou EntityScan). Les utiliser pourra etre utile si c trop long de tout scanner .. a savoir quand meme.&#10;Reste plus que liqui/flyway ! actuellement bdd tables crées par jpa (à savoir qd même car pratique quand on fait juste des tests !)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Banger de fou multimodule avec test qui marche bien sans annotation en plus (du type EnableJpaRepository ou EntityScan). Les utiliser pourra etre utile si c trop long de tout scanner .. a savoir quand meme.&#10;Reste plus que liqui/flyway ! actuellement bdd tables crées par jpa (à savoir qd même car pratique quand on fait juste des tests !)" />
+    <MESSAGE value="Enorme banger, cette fois avec liquibase et le changelog externalisé qui se copie tout seul ! faut juste faire un mvn test avant et après on peut cliquer sur les boutons c ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enorme banger, cette fois avec liquibase et le changelog externalisé qui se copie tout seul ! faut juste faire un mvn test avant et après on peut cliquer sur les boutons c ok" />
   </component>
 </project>

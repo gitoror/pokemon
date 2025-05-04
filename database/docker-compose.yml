@@ -1,0 +1,22 @@
+services:
+  db-poke:
+    container_name: db-poke
+    image: postgres
+    environment:
+      POSTGRES_USER: app_user
+      POSTGRES_DB: poke_db
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init-schema.sql:/docker-entrypoint-initdb.d/init.sql
+
+  liquibase-poke:
+    image: liquibase/liquibase
+    container_name: liquibase-poke
+    depends_on:
+      - db-poke
+    command: update --defaults-file=liquibase.properties
+    volumes:
+      - ./changelog/:/liquibase/changelog
+      - ./liquibase.properties:/liquibase/liquibase.properties
