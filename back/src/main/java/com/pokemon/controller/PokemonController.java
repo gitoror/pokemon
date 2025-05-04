@@ -1,5 +1,6 @@
 package com.pokemon.controller;
 
+import com.pokemon.exception.PokemonNotFoundException;
 import com.pokemon.model.Pokemon;
 import com.pokemon.service.PokemonService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,11 @@ public class PokemonController {
     @Autowired
     private PokemonService pokemonService;
 
+    @GetMapping
+    public ResponseEntity<List<Pokemon>> getPokemons() {
+        return ResponseEntity.ok(pokemonService.getPokemons());
+    }
+
     @GetMapping("/{id}")
     public ResponseEntity<Pokemon> getPokemon(@PathVariable Long id) {
         return ResponseEntity.ok(pokemonService.getPokemonById(id));
@@ -26,12 +32,11 @@ public class PokemonController {
         return ResponseEntity.status(HttpStatus.CREATED).body(pokemonService.createPokemon(pokemon));
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     public ResponseEntity<Pokemon> updatePokemon(@PathVariable Long id, @RequestBody Pokemon pokemon) {
         Pokemon updatedPokemon = pokemonService.updatePokemon(id, pokemon);
-        return ResponseEntity.ok(updatedPokemon);
+        return ResponseEntity.status(HttpStatus.CREATED).body(updatedPokemon);
     }
-
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletePokemon(@PathVariable Long id) {
@@ -39,8 +44,8 @@ public class PokemonController {
         return ResponseEntity.noContent().build();
     }
 
-    @GetMapping
-    public ResponseEntity<List<Pokemon>> searchPokemons(@RequestParam String name) {
-        return ResponseEntity.ok(pokemonService.searchPokemon(name));
+    @ExceptionHandler(PokemonNotFoundException.class)
+    ResponseEntity<Void> handle(PokemonNotFoundException e) {
+        return ResponseEntity.notFound().build();
     }
 }

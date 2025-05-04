@@ -38,8 +38,4 @@ public class TrainerController {
         return ResponseEntity.noContent().build();
     }
 
-    @GetMapping
-    public ResponseEntity<List<Trainer>> searchTrainers(@RequestParam String name) {
-        return ResponseEntity.ok(trainerService.searchTrainer(name));
-    }
 }

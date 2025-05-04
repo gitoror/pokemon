@@ -1,16 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e587a831-6609-4d6f-bb86-4ce2f04f5282" name="Changes" comment="" />
+    <list default="true" id="e587a831-6609-4d6f-bb86-4ce2f04f5282" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/database/1.0.0/changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/database/1.0.1/changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/database/changelog-master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/dto/PokemonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/exception/PokemonNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.0/sql/ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.1/sql/pokeball_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/test/java/com/pokemon/service/PokemonServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pokemon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pokemon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/1.0.0/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.0/changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/1.0.1/changelog.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/1.0.1/changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/changelog-master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/db/changelog/db.changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/back/database/command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/database/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/database/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/PokemonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/PokemonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/controller/TrainerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/pokemon/service/PokemonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/pokemon/service/PokemonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2wHi9PHZT6pDddMzWICRlKe7Hhd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -18,10 +51,56 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
+    "Docker.docker.db: Compose Deployment.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tomma/space/pokemon/back/database",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pokemon.App" />
+      <module name="pokemon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pokemon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="back/devlocal/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Docker.docker.db: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
